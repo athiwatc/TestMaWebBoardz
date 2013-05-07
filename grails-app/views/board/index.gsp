@@ -12,6 +12,22 @@
   <title></title>
 </head>
 <body>
-       Oh yea
+<ul>
+    <% if(AllPost.size() == 0) { %>
+    <li>No posts</li>
+    <% } else { %>
+    <% for(post in AllPost) { %>
+    <li><%= post.title %></li>
+    <% } %>
+    <% } %>
+</ul>
+
+
+Create a post here!
+<g:form name="linkCreateForm" url="[action:'create']">
+    Title: <g:textField name="title"/><br/>
+    body: <g:textField name="body"/><br/>
+    <input type="submit" value="Add a new post"/>
+</g:form>
 </body>
 </html>
