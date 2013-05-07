@@ -2,5 +2,5 @@ package testmawebboardz
 
 class BoardController {
 
-    def index() { }
+    def index() {}
 }

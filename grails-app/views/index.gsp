@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
-	</head>
+        <meta http-equiv="refresh" content="0; url=/board/">
+    </head>
 	<body>
           Heelo
 	</body>
